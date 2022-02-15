@@ -13,7 +13,7 @@ public class EasyDemoApplication {
         SpringApplication.run(EasyDemoApplication.class, args);
     }
 
-    @GetMapping
+    @GetMapping("/test")
     public String test(){
         return "TEST";
     }
